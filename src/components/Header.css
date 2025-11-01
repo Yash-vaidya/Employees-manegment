@@ -1,0 +1,59 @@
+/* === Neon Glow Effect for Navbar Links === */
+.neon-link {
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  color: #fff !important;
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  border-radius: 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.neon-link::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #00ff00,
+    #0000ff,
+    #ff0000,
+    #00ff00,
+    #0000ff
+  );
+  background-size: 300% 300%;
+  z-index: -1;
+  border-radius: 100vmax;
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.5s;
+  animation: rotate-97 5s linear infinite;
+}
+
+.neon-link:hover::after {
+  opacity: 1;
+}
+
+@keyframes rotate-97 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navbar base style */
+.navbar {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  color: #ff7f50 !important;
+}

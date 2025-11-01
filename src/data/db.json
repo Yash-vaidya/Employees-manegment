@@ -1,0 +1,27 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Yash Vaidya",
+      "position": "Frontend Developer",
+      "email": "yash@example.com",
+      "role": "backend devloper "
+    },
+    {
+      "name": "vishavdip devanand vaidya ",
+      "position": "MERN stack",
+      "salary": "123456789",
+      "id": 2,
+      "email": "vishavdipvaidya9623@gmail.com",
+      "role": "backend devloper "
+    },
+    {
+      "name": "Nikita Shubham Tayde ",
+      "email": "nikitatayde442@gmail.com",
+      "position": "devops ",
+      "role": "devloper",
+      "salary": "45000",
+      "id": 4
+    }
+  ]
+}
