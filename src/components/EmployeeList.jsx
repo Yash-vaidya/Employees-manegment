@@ -130,6 +130,8 @@ const EmployeeList = () => {
                 <th>Name</th>
                 <th>Email</th>
                 <th>Role</th>
+                <th>Positon</th>
+                <th>Salary</th>
                 <th>Actions</th>
               </tr>
             </thead>
@@ -141,6 +143,8 @@ const EmployeeList = () => {
                     <td>{emp.name}</td>
                     <td>{emp.email}</td>
                     <td>{emp.role}</td>
+                    <td>{emp.position}</td>
+                    <td>{emp.salary}</td>
                     <td>
                       <button
                         className="btn custom-btn-edit btn-sm me-2"

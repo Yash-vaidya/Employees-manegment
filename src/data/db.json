@@ -1,27 +1,60 @@
 {
   "employees": [
     {
-      "id": 1,
-      "name": "Yash Vaidya",
-      "position": "Frontend Developer",
-      "email": "yash@example.com",
-      "role": "backend devloper "
-    },
-    {
       "name": "vishavdip devanand vaidya ",
       "position": "MERN stack",
-      "salary": "123456789",
-      "id": 2,
+      "salary": "50000",
+      "id": 1,
       "email": "vishavdipvaidya9623@gmail.com",
       "role": "backend devloper "
     },
     {
+      "name": "Amra Ambhore",
+      "email": "amraambhore@gmail.com",
+      "position": "Maneger",
+      "role": "Devops",
+      "salary": "79999",
+      "id": 2
+    },
+    {
+      "name": "Prashik Gunvantrav Abhore",
+      "email": "prashikambhore@gmail.com",
+      "position": "developer ",
+      "role": "Frantend Devloper ",
+      "salary": "54998",
+      "id": 3
+    },
+    {
+      "name": "Soham Chawan",
+      "email": "sohamchawan110@gmail.com",
+      "position": "Tester",
+      "role": "React Tester",
+      "salary": "32000",
+      "id": 4
+    },
+    {
+      "name": "Nikhil Hiwale",
+      "email": "nikhil143@gamil.com",
+      "position": "CEO",
+      "role": "Run the compeny (admin)",
+      "salary": "988861",
+      "id": 5
+    },
+    {
+      "name": "Surabh joshi",
+      "email": "surabhjosi341@gmail.com",
+      "position": "Developer ",
+      "role": "backend devloper ",
+      "salary": "40500",
+      "id": 6
+    },
+    {
       "name": "Nikita Shubham Tayde ",
       "email": "nikitatayde442@gmail.com",
-      "position": "devops ",
-      "role": "devloper",
-      "salary": "45000",
-      "id": 4
+      "position": "Developer ",
+      "role": "React Developer ",
+      "salary": "25000",
+      "id": 7
     }
   ]
 }

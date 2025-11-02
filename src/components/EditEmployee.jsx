@@ -76,6 +76,28 @@ const EditEmployee = () => {
               required
             />
           </div>
+          <div className="mb-3">
+            <label className="form-label text-white">Positon</label>
+            <input
+              type="text"
+              name="role"
+              className="form-control custom-input"
+              value={employee.position}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <label className="form-label text-white">Salary</label>
+            <input
+              type="text"
+              name="salary"
+              className="form-control custom-input"
+              value={employee.salary}
+              onChange={handleChange}
+              required
+            />
+          </div>
 
           <button type="submit" className="btn custom-btn w-100 mt-3">
             Update Employee

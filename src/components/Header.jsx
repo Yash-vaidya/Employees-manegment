@@ -1,7 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark">

@@ -1,5 +1,5 @@
 .about-container {
-  background-color: #dfece1;
+ background: linear-gradient(to right, #ff7e5f, #feb47b, #fbd786, #f7797d);
   border-radius: 30px;
   transition: all 0.5s ease;
   box-shadow: 0 10px 25px rgba(255, 192, 203, 0.4);
